@@ -19,4 +19,10 @@ class ExampleUnitTest {
     fun multiplication_test() {
         assertEquals(4, 2 * 2)
     }
+
+    @Test
+    fun decrement_test() {
+        var a = 2
+        assertEquals(1, --a)
+    }
 }
