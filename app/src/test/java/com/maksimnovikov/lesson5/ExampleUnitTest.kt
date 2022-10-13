@@ -25,4 +25,10 @@ class ExampleUnitTest {
         var b = 2
         assertEquals(3, b++)
     }
+
+    @Test
+    fun decrement_test() {
+        var a = 2
+        assertEquals(1, --a)
+    }
 }
