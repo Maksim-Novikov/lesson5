@@ -31,4 +31,10 @@ class ExampleUnitTest {
         var a = 2
         assertEquals(1, --a)
     }
+
+    @Test
+    fun some_test() {
+        val a = 2
+        assertEquals("22", a.toString() + "2")
+    }
 }
